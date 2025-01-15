@@ -1,0 +1,62 @@
+.orderMenu > .container {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.orderMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.space {
+  width: 90%;
+  height: 60px;
+  border-bottom: 1px solid #dbdbdb;
+  margin: 0 auto;
+}
+
+.services,
+.total-container {
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.services {
+  font-size: 12px;
+}
+
+.charges {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btns-container {
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.btns-container > button {
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.btns-container > button:nth-child(1) {
+  border: 1px solid #f8b602;
+  font-size: 14px;
+  justify-content: space-around;
+}
+
+.btns-container > button:nth-child(1) > span {
+  font-size: 1.2rem;
+}
+
+.btns-container > button:nth-child(2) {
+  border: none;
+  background-color: #f8b602;
+  color: white;
+  font-weight: 500;
+}

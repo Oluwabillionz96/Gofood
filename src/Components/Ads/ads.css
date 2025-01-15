@@ -1,0 +1,30 @@
+.ads {
+  width: 90%;
+  height: 240px;
+  background: url("../../assets/adsPattern.svg");
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  color: white;
+}
+
+.offer {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 15px;
+}
+.ads-img img {
+  height: 245px;
+  object-fit: cover;
+}
+
+.offer-desc {
+  font-size: 0.9rem;
+  margin-left: 15px;
+  width: 75%;
+}
+
+.ads-text {
+  flex-direction: column;
+  gap: 1rem;
+}

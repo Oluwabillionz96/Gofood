@@ -1,0 +1,14 @@
+.nav-btns {
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 16px;
+  gap: 6px;
+  justify-content: start;
+  font-size: 18px;
+  font-weight: 549;
+}
+
+.nav-btns img {
+  margin-left: 10px;
+}

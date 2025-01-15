@@ -1,0 +1,59 @@
+.address {
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.address-header {
+  font-size: 14px;
+  width: 90%;
+  margin: 0 auto;
+  color: #a098ae;
+}
+
+.place {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.place-holder {
+  width: 100%;
+  gap: 6.5rem;
+  position: relative;
+}
+
+img[alt="location icon"] {
+  position: absolute;
+  left: 0.8rem;
+}
+
+.change-place {
+  width: 90px;
+  height: 30px;
+  border-radius: 8px;
+  border: 2px solid #f8b602;
+  outline: none;
+  background-color: transparent;
+  color: #f8b602;
+}
+
+.description {
+  font-size: 14px;
+  width: 90%;
+  margin: 0 auto;
+  color: #a098ae;
+}
+
+.buttons {
+  justify-content: start;
+  gap: 0.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.buttons > button {
+  padding: 0.4rem;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 10px;
+}

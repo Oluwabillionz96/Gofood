@@ -1,0 +1,61 @@
+.nav {
+  width: 17.97%;
+  background-color: #fff;
+  height: 180vh;
+}
+
+.sideNav > .container {
+  width: 100%;
+  flex-direction: column;
+  gap: 59px;
+  padding: 1rem 0;
+}
+
+.navigations {
+  flex-direction: column;
+  gap: 16px;
+}
+
+.upgrade {
+  width: 150px;
+  aspect-ratio: 1;
+  border-radius: 10px;
+  background-color: #f8b602;
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.upgrade p {
+  color: white;
+  font-weight: 550;
+  font-size: 14px;
+  margin: 35px 0 0 8px;
+}
+
+.upgrade img {
+  position: absolute;
+  top: 8%;
+  right: 8%;
+}
+
+.upgrade button {
+  width: 75px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 550;
+  font-size: 12px;
+  background-color: #fff;
+  margin: 8px 0 0 8px;
+}
+
+.upgrade div.pattern {
+  width: 100px;
+  aspect-ratio: 1;
+  background-color: #f0c868;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10%;
+  right: -30%;
+}
