@@ -1,6 +1,8 @@
 import "./main.css";
 import search from "../../assets/search.svg";
 import Ads from "../Ads/Ads";
+import Category from "../Category/Category";
+import Popular from "../Popular/Popular";
 
 const MainBody = () => {
   return (
@@ -18,6 +20,8 @@ const MainBody = () => {
         </div>
       </div>
       <Ads />
+      <Category />
+      <Popular />
     </div>
   );
 };
